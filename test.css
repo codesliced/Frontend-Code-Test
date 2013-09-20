@@ -7,12 +7,30 @@ body {
   font-size: 100%;
 }
 
-div article {
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:focus {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+div article{
   box-sizing:border-box;
 }
 
-ul li {
+ul li{
   display: inline;
+  padding-right: 10px;
 }
 
 article {
@@ -22,11 +40,6 @@ article {
   margin-bottom: 3%;
   text-align: center;
   width: 80%;
-}
-
-h3 {
-  color: green;
-  font-size: 1.2em;
 }
 
 .main {
@@ -41,6 +54,7 @@ h3 {
 .sidebar {
   width: 300px;
   float: left;
+  display: none;
 }
 
 #last {
@@ -79,7 +93,7 @@ h3 {
 
 .byline {
   color: #666;
-  font-size: .6em;
+  font-size: .8em;
   font-weight: 400;
 }
 

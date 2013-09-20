@@ -9,18 +9,20 @@
 
 <body>
   <header>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/blog">Blog</a>
-    </ul>
+  <ul>
+    <li class="link"><a href="index.html">Home</a></li>
+    <li class="link"><a href="/about">About</a></li>
+    <li class="link"><a href="/blog">Blog</a>
+    <li class="link"><a href="#">Sidebar</a></li> 
+    <li id="blue"><a href="#">Blue</a></li>
+  </ul>
   </header>
   <div class="main">
     <div class="content">
       <article>
         <div class="story-image"><img src="http://placekitten.com/140/120"/></div>
         <div class="story">
-          <h3>Oscar-Nominated Movies Have Gone to the Dogs <span class="byline">by Maria Goodavage</span></h3>
+          <h3 class="link"><a href="#">Oscar-Nominated Movies Have Gone to the Dogs</a> <span class="byline">by Maria Goodavage</span></h3>
           <p><span class="date-posted">Yesterday</span> &mdash; The clever staff at NextMovie realized that it's a dog's world, and have recast the nine Academy Awards Best Picture nominiees with dogs as the top award winners at the Academy Awards where the dogs are considered...</p>
           <p class="comments"><img src="https://raw.github.com/thrashr888/Frontend-Code-Test/master/img/icon-comment-gry.png"> 0</p>
         </div>
@@ -29,13 +31,16 @@
       <article id="last">
         <div class="story-image"><img src="http://placekitten.com/140/120"/></div>
         <div class="story">
-          <h3>Park Ranger Uses Stun Gun on Man with Two Off-Leash Lap Dogs <span class="byline">by Maria Goodavage</span></h3>
+          <h3 class="link"><a href="#">Park Ranger Uses Stun Gun on Man with Two Off-Leash Lap Dogs</a> <span class="byline">by Maria Goodavage</span></h3>
           <p><span class="date-posted">3 days ago</span> &mdash; A man walking his two lap dogs off-leash in an area that had been off-leash for years until December ended up at the wrong end...</p>
           <p class="comments"><img src="https://raw.github.com/thrashr888/Frontend-Code-Test/master/img/icon-comment-gry.png"> 0</p>
         </div>
       </article>
     </div>
-    <div class="sidebar"><p></p></div>
+    <div class="sidebar">
+      <h2>Sidebar</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse orci enim, imperdiet ut dolor pretium, venenatis dapibus nibh. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam vestibulum augue vitae tellus pretium laoreet. Morbi varius sit amet diam non sodales. Nunc sollicitudin ligula eget congue rutrum. Ut lectus nisi, posuere at nibh vitae, tincidunt pretium purus. In tincidunt quam vitae urna rutrum, vel sagittis dui placerat. Praesent quis velit quis ipsum semper luctus vel quis purus. Aliquam non erat quis neque posuere mattis. Mauris bibendum pellentesque odio. Nunc gravida luctus augue ut congue. Mauris sodales ac metus sit amet porttitor. Nulla facilisi.</p>
+    </div>
   </div>
   <footer></footer>
 </body>
