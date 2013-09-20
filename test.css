@@ -1,1 +1,17 @@
-/* CSS goes here */
+.main {
+  width: 100%;
+}
+
+.content {
+  float: left;
+  width: 660px;
+}
+
+.sidebar {
+  width: 300px;
+  float: left;
+}
+
+ul li{
+  display: inline;
+}
